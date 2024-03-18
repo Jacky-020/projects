@@ -19,7 +19,7 @@ class Settings:
         self.screen_width = 1200
         self.bg_color = (135, 206, 235)
 
-        self.ship_image = 'side_shooting/rocket.jpg'
+        self.ship_image = './rocket.jpg'
         self.ship_speed = 0.1
         
         self.bullet_speed = 3.0
@@ -27,7 +27,7 @@ class Settings:
         self.bullet_color = (255, 0, 0)
         self.bullet_limit = 3
 
-        self.alien_image = 'side_shooting/alien.png'
+        self.alien_image = './alien.png'
         self.alien_speed = 0.1
         self.alien_separation_muliplier = 1.5
 
